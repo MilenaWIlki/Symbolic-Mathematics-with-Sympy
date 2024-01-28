@@ -1,0 +1,11 @@
+import sympy as sp
+
+# Define symbolic variables
+x, y = sp.symbols('x y')
+
+# Define an equation
+equation = x**2 + y**2 - 1
+
+# Solve the equation
+solutions = sp.solve(equation, y)
+print("Solutions:", solutions)
